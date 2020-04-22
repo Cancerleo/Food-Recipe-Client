@@ -11,7 +11,7 @@ import {
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
 export const TOKEN_STILL_VALID = "TOKEN_STILL_VALID";
 export const LOG_OUT = "LOG_OUT";
-export const RECIPE_POST_SUCCESS = "RECIPE_POST_SUCCESS";
+// export const RECIPE_POST_SUCCESS = "RECIPE_POST_SUCCESS";
 
 const loginSuccess = (userWithToken) => {
   return {
@@ -25,10 +25,10 @@ const tokenStillValid = (userWithoutToken) => ({
   payload: userWithoutToken,
 });
 
-export const recipePostSuccess = (recipe) => ({
-  type: RECIPE_POST_SUCCESS,
-  payload: recipe,
-});
+// export const recipePostSuccess = (recipe) => ({
+//   type: RECIPE_POST_SUCCESS,
+//   payload: recipe,
+// });
 
 export const logOut = () => ({ type: LOG_OUT });
 
@@ -123,7 +123,7 @@ export const postRecipes = (name, description, imageUrl) => {
 
     try {
       const response = await axios.post(
-        `${apiUrl}/addrecipes`,
+        `${apiUrl}/recipes/addrecipe`,
         {
           name,
           description,
@@ -135,12 +135,9 @@ export const postRecipes = (name, description, imageUrl) => {
           },
         }
       );
-
-      // console.log("Yep!", response);
       dispatch(
         showMessageWithTimeout("success", false, response.data.message, 3000)
       );
-      dispatch(recipePostSuccess(response.data.recipe));
       dispatch(appDoneLoading());
     } catch (error) {
       if (error.response) {
