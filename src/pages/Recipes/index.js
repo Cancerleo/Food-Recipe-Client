@@ -39,6 +39,7 @@ export default function Recipes() {
 
   return (
     <div>
+      <br />
       <h3>Find your favorite recipe here</h3>
 
       <Container>
