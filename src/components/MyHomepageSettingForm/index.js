@@ -1,11 +1,12 @@
 import React from "react";
 import { Col, Form, Row } from "react-bootstrap";
+import UploadProfilePic from "./uploadProfilePic";
 
 export default function MyHomepageSettingForm() {
   return (
     <div>
       <Row>
-        <Col md="5">
+        <Col md="7">
           <Form>
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label>Username</Form.Label>
@@ -104,6 +105,7 @@ export default function MyHomepageSettingForm() {
         </Col>
         <Col md="5">
           <h3>Upload your image</h3>
+          <UploadProfilePic />
         </Col>
       </Row>
     </div>
