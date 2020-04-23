@@ -5,6 +5,7 @@ export default function MyHomepage() {
   return (
     <div>
       <h2>Personal Data</h2>
+      <br />
       <MyHomepageSettingForm />
     </div>
   );
