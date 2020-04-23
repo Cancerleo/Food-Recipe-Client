@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" style={{ textAlign: "center" }}>
       <h3>About this web</h3>
       <p>
         {" "}
