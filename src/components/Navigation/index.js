@@ -24,6 +24,9 @@ export default function Navigation() {
           <NavbarItem path="/" linkText="About" />
           <NavbarItem path="/recipes" linkText="Recipes" />
           <NavbarItem path="/addrecipes" linkText="Add New Recipe" />
+          {token ? (
+            <NavbarItem path="/myhomepage" linkText="MyHomepage" />
+          ) : null}
           {loginLogoutControls}
         </Nav>
       </Navbar.Collapse>
