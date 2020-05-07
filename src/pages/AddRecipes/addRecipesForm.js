@@ -10,9 +10,7 @@ export default function AddRecipesForm() {
   const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [imageUrl, setImageUrl] = useState(
-    "https://source.unsplash.com/1600x900/?"
-  );
+  const [imageUrl, setImageUrl] = useState("");
 
   function submitForm(event) {
     event.preventDefault();
