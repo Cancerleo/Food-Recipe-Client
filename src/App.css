@@ -1,0 +1,6 @@
+.App {
+  min-height: 100vh;
+  /* background-image: url("./pages/Logo/kitchen.jpeg"); */
+  background-size: cover;
+  background-position: centre;
+}
