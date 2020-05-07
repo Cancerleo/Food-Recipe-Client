@@ -101,6 +101,10 @@ export default function MyHomepageSettingForm() {
               </Form.Control>
             </Form.Group>
           </Form.Row>
+          <Form.Group controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Bio</Form.Label>
+            <Form.Control as="textarea" rows="3" />
+          </Form.Group>
           <br />
         </Col>
         <Col md="5">

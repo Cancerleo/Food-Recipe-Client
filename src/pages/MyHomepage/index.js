@@ -8,7 +8,6 @@ export default function MyHomepage() {
       <h2>Personal Data</h2>
       <br />
       <MyHomepageSettingForm />
-      <br />
       <Button className="mb-2" variant="success">
         Save
       </Button>
