@@ -20,7 +20,7 @@ export default function AddRecipesForm() {
   }
   return (
     <Form as={Col} md={{ span: 6, offset: 3 }}>
-      <h1 className="mt-5 mb-5">Add your fav recipes</h1>
+      <h1 className="mt-5 mb-5">Add your favorite recipes</h1>
       <Form.Group>
         <Form.Label>Name</Form.Label>
         <Form.Control
