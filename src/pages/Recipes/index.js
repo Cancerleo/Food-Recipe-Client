@@ -11,7 +11,8 @@ export default function Recipes() {
   const dispatch = useDispatch();
   const recipes = useSelector(selectRecipes);
   const [filteredRecipes, setFilteredRecipes] = useState(recipes);
-  // const [query, setQuery] = useState("");
+  // const [currentPage, setCurrentPage] = useState(1);
+  // const [recipesPerPage, setRecipePerPage] = useState(5);
 
   useEffect(() => {
     dispatch(fetchRecipes());
@@ -37,6 +38,11 @@ export default function Recipes() {
 
   if (!recipes) return <h6>Loading</h6>;
 
+  // // Get current recipes
+  // const indexOfLastRecipe = currentPage * recipesPerPage;
+  // const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
+  // const currentRecipes = recipes.slice(indexOfFirstRecipe, indexOfLastRecipe);
+
   return (
     <div>
       <br />
@@ -56,6 +62,7 @@ export default function Recipes() {
                 description={recipe.description}
                 userId={recipe.userId}
                 showLink={true}
+                // recipes={currentRecipes}
               />
             );
           })}
