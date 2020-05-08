@@ -1,13 +1,16 @@
-# 🍛SapuDapur 🍛
+# 🍛 SapuDapur 🍛
 
-This is a simple app recipe which helps you to find different kind of recipes. You can also add and share your own recipe :)
+Dont know yet what to cook for tonight🤔? Don't worry! This "SapuDapur aka MyKitchen app helps you exploring and experimenting different kind of recipes idea😋. The best part is you can also add and share your delicious recipes to everyone😎!
 
 ## Table of contents:
 
-- Technology Used
-- Goals for this project
-- user stories and wireframe
-- git workflow
+⚙️ [Technology used](#technology-used)
+
+🎯[Goals for this project](#goals-for-this-project)
+
+🖖🏽[User stories and wireframe](#user-stories-and-wireframe)
+
+👩🏽‍💻[Git workflow](#git-workflow)
 
 ## Technology Used
 - React
@@ -17,13 +20,13 @@ This is a simple app recipe which helps you to find different kind of recipes. Y
 - React Bootstraap
 
 ## Goals for this project
-The goal of this project is to build full-stack app using all technologies I have learned during the bootcamp. 
-
-Practice build full stack app
-Implement all technologies we learned 
-Using git
+- To practice full stack development
+- To Independently Build a full-stack app using all technologies I have learned during the bootcamp.
+- To get comfortable using git
+- To showcase development approacf of using wireframes and user stories. 
 
 ## User Stories and Wireframe
+- User stories 
 I try to maintain my user Stories using trello and my wireframa using Figma
 
 ## Git Workflow
