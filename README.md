@@ -4,13 +4,19 @@ Dont know yet what to cook for tonight🤔? Don't worry! This "SapuDapur aka MyK
 
 ## Table of contents:
 
-⚙️ [Technology used](#technology-used)
+🖥 **[Screenshots](#screenshots)**
 
-🎯[Goals for this project](#goals-for-this-project)
+⚙️  **[Technology used](#technology-used)**
 
-🖖🏽[User stories and wireframe](#user-stories-and-wireframe)
+🎯 **[Goals for this project](#goals-for-this-project)**
 
-👩🏽‍💻[Git workflow](#git-workflow)
+🖖🏽 **[User stories and wireframe](#user-stories-and-wireframe)**
+
+👩🏽‍💻 **[Git workflow](#git-workflow)**
+
+
+## Screenshots
+- Coming Soon
 
 ## Technology Used
 - React
@@ -18,6 +24,7 @@ Dont know yet what to cook for tonight🤔? Don't worry! This "SapuDapur aka MyK
 - Axios
 - Sequelize
 - React Bootstraap
+- Docker
 
 ## Goals for this project
 - To practice full stack development
