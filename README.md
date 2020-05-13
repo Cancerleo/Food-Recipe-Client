@@ -37,7 +37,7 @@ Dont know yet what to cook for tonight🤔? Don't worry! This "SapuDapur aka MyK
 I try to maintain my user Stories using trello and my wireframa using Figma
 
 ## Git Workflow
-In this git workflow i try to :
+In this git workflow I try to :
 work on branches for the new features
 create pull request and merge it myself, this is for my practice working with branches
 write good commit 
