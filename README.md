@@ -14,6 +14,7 @@ Dont know yet what to cook for tonight🤔? Don't worry! This "SapuDapur aka MyK
 
 👩🏽‍💻 **[Git workflow](#git-workflow)**
 
+🔗 **[Server-Repo](#Server-Repo)**
 
 ## Screenshots
 - Coming Soon
@@ -41,4 +42,7 @@ In this git workflow I try to :
 work on branches for the new features
 create pull request and merge it myself, this is for my practice working with branches
 write good commit 
+
+## Server Repo
+The server side of this project is an Express server connected to a Sequelize database [Click here for more details](https://github.com/Cancerleo/Food-Recipe-Server)
 
